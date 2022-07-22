@@ -1,0 +1,27 @@
+@media (max-width: 500px) {
+  html {
+    font-size: 53%;
+  }
+  nav {
+    width: 100vw;
+    height: 12rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+  }
+  /* side bar code starts */
+  .sidebar {
+    display: none;
+  }
+  /* main-container code starts */
+
+  .main-container {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 500px) and (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+}

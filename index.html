@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Edu+QLD+Beginner:wght@500&family=Edu+SA+Beginner:wght@500&family=Edu+TAS+Beginner:wght@500&family=Lato:wght@300&family=Roboto+Mono:wght@200&family=Roboto+Slab:wght@300;400&family=Signika+Negative&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="logo"> <img src="image/logo.png" alt=""></div>
+        <ul class="page-list">
+          <li class="page-items"><a href="#"> HOME </a></li>
+          <li class="page-items"><a href="#"> GALLERY </a></li>
+          <li class="page-items"><a href="#"> EXPLORE </a></li>
+          <li class="page-items"><a href="#"> ABOUT </a></li>
+        </ul>
+        <ul class="search-cart">
+          <li class="search-box">
+            <input type="text" class="search-bar">
+            <button  class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </li>
+          <li class="login"><a href="#"><i class="fa-solid fa-circle-user"></i></a></li>
+          <li class="cart"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+      </nav>
+      <div class="sidebar">
+        <ul class="social-mdeia-icons">
+          <li class="icons"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li class="icons"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li class="icons"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li class="icons"><a href="#"><i class="fa-brands fa-codepen"></i></a></li>
+        </ul>
+      </div>
+      <div class="main-container">
+        <div class="desc-section">
+          <div class="title">G-Timeless watch, 38mm</div>
+          <div class="desc">This watch is designed with a traditional sensibility, juxtaposed with codes inspired by Gucci's new aesthetic. The particular dial design is uniquely Gucci: it displays house motifs, including the bee, the star and the heart, as well as typical elements usually found on the case back.</div>
+          <div class="button"><button>Explore more </button></div>
+        </div>
+        <div class="model-section">
+          <div class="model">
+            <model-viewer  src="models/goldenwatch.glb" camera-controls camera-orbit="35deg 80deg 2m" shadow-intensity="1" field-of-view="22deg 157.5deg auto" disable-zoom></model-viewer>
+            <div class="arrow-section">
+              <div class="left-arrow"></div>
+              <div class="right-arrow"></div>
+            </div>
+      </div>
+    </div>
+      </div>
+    </main>
+
+    <div class="scroll-bar">
+      <div class="scroll-bar-track">
+        <div class="scroll-bar-thumb"></div>
+      </div>
+    </div>
+  </body>
+</html>
